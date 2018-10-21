@@ -6,11 +6,11 @@
 </head>
 <body>
     <h1>Moje posty</h1>
-    <!--<div th:each="post : @{posts}">-->
+    <div th:each="post : ${posts}">
 
-        <!--<h2 th:text="${post.title}"></h2>-->
-        <!--<h2 th:text="${post.content}"></h2>-->
+        <h2 th:text="${post.title}"></h2>
+        <h2 th:text="${post.content}"></h2>
 
-    <!--</div>-->
+    </div>
 </body>
 </html>
